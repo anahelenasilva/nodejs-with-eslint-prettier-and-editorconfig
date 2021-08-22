@@ -1,0 +1,35 @@
+{
+  "name": "nodejs-with-eslint-prettier-and-editorconfig",
+  "version": "1.0.0",
+  "description": "nodejs with eslint prettier and editorconfig",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "dev:debug": "nodemon --inspect src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anahelenasilva/nodejs-with-eslint-prettier-and-editorconfig.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anahelenasilva/nodejs-with-eslint-prettier-and-editorconfig/issues"
+  },
+  "homepage": "https://github.com/anahelenasilva/nodejs-with-eslint-prettier-and-editorconfig#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "add": "^2.0.6",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.1",
+    "eslint-plugin-prettier": "^3.4.1",
+    "nodemon": "^2.0.12",
+    "sucrase": "^3.20.1"
+  }
+}
